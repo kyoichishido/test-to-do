@@ -1,3 +1,3 @@
-const baseUrl = "http://localhost:8000/api"
+const baseUrl = "https://to-fckin-do.netlify.app/api"
 
 export default baseUrl
