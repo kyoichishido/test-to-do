@@ -1,3 +1,3 @@
-const baseUrl = "https://to-fckin-do.netlify.app/api"
+const baseUrl = "https://test-to-do.onrender.com/api"
 
 export default baseUrl
