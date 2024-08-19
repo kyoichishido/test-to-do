@@ -15,7 +15,9 @@ dotenv.config({
 // middle ware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cors());
+app.use(cors({
+    origin: process.env.FRONTENDURL,
+}));
 
 
 // database connection vye paxi matra app run garni 
